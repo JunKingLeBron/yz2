@@ -1,0 +1,71 @@
+html, body {
+  height: 100%;
+}
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color:#000;
+  margin: 0;
+  padding: 0;
+  background: rgb(27, 122, 143);
+ 
+}
+.main {
+  position: relative;
+  width: 1920px;
+  height: 950px;
+}
+.swiper-container {
+  width: 1165px;
+  height: 540px;
+  margin: 0 auto;
+}
+.swiper-wrapper {
+  display: flex;
+  align-items: center;
+}
+.mr104  {
+  margin-right: 104px;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.tianzun {
+  width: 237px;
+  height: 429px;
+  background: url('./images/tianzu_bbg_03.png') no-repeat;
+  position: relative;
+  margin-left: 32px;
+}
+.tianzun img {
+  position:absolute;
+  bottom:  98px;
+  left: -72px;
+  
+}
+.swiper-button-prev {
+  width: 77px;
+  height: 173px;
+  left: 384px;
+  top: 208px;
+  background: url(./images/btn.png) 0 0 no-repeat;
+}
+.swiper-button-next {
+  width: 77px;
+  height: 173px;
+  background: url(./images/btn.png) -1088px 0 no-repeat;
+}
